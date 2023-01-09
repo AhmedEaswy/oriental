@@ -86,4 +86,7 @@ return [
     'Aghsan Group by' => 'Aghsan Group by',
     'Copyright' => 'Copyright',
     'rwabett' => 'rwabett',
+    'update' => 'update',
+    'force_now' => 'force_now',
+    'group_by' => 'group_by',
 ];
