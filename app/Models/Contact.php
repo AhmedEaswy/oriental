@@ -7,5 +7,5 @@ use App\Models\BaseModel as Model;
 class Contact extends Model
 {
   use HasFactory;
-  protected $fillable = ['name', 'email', 'phone', 'content', 'interest'];
+  protected $fillable = ['name', 'email', 'phone', 'phone_code', 'content', 'interest'];
 }

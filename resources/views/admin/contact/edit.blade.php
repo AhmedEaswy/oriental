@@ -1,5 +1,4 @@
 <x-admin.layout.master>
-
     <div class="card">
         <div class="card-body">
             @include('admin::error')

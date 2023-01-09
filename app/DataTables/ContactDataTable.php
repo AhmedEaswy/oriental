@@ -68,6 +68,7 @@ class ContactDataTable extends DataTable
             'id' => new Column(['title' => 'id', 'data' => 'id']),
             'content' => new Column(['title' => 'content', 'data' => 'content']),
             'name' => new Column(['title' => 'name', 'data' => 'name']),
+            'phone_code' => new Column(['title' => 'phone_code', 'data' => 'phone_code']),
             'phone' => new Column(['title' => 'phone', 'data' => 'phone']),
             'interest' => new Column(['title' => 'interest', 'data' => 'interest']),
             'email' => new Column(['title' => 'email', 'data' => 'email']),

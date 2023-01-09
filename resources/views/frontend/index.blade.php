@@ -2,7 +2,7 @@
   <!-- START MAIN BANNER -->
   <section
     class="x-main"
-
+    style="background-image: url({{ setting('banner', asset('assets/frontend/image/banner.jpg'), 'file', 'about_us', '*') }});"
   >
     <div class=" z-10 relative">
       <div class="text-center">
@@ -69,8 +69,8 @@
                         id="phone_code"
                         class="border-b-black border-x-0 border-t-0 border-b-2 px-0 py-3 text-lg
                                        text-gray-700 w-80 font-semibold bg-transparent focus:border-b-amber-200 focus:ring-transparent focus:outline-none w-20">
-                  <option value="egypt" selected>+20</option>
-                  <option value="egypt">+966</option>
+                  <option value="+20" selected>+20</option>
+                  <option value="+966">+966</option>
                 </select>
                 <input type="text"
                        name="phone"
