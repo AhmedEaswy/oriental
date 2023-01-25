@@ -25,6 +25,7 @@ body {
     background-attachment: fixed;
     position: relative;
     padding:80px 50px;
+    @apply min-h-screen;
 }
 .x-main:before {
     content: '';
@@ -50,7 +51,9 @@ input:focus {
 
 
 textarea:focus {
-    border-color: var(--color-primary);
+    border-color: var(--color-primary) !important;
+    accent-color: var(--color-primary) !important;
+    ring-color: var(--color-primary) !important;
 }
 
 .footer select option {
