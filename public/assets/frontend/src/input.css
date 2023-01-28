@@ -27,16 +27,16 @@ body {
     padding:80px 50px;
     @apply min-h-screen;
 }
-.x-main:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(225, 225, 225, 0.9);
-    z-index: 0;
-}
+/*.x-main:before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: rgba(225, 225, 225, 0.9);*/
+/*    z-index: 0;*/
+/*}*/
 
 @media screen and (max-width: 768px) {
     .x-main {
@@ -72,4 +72,13 @@ textarea:focus {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+input, label, select, textarea, p, a {
+  color: #fff !important;
+}
+
+input::placeholder, select::placeholder, textarea::placeholder
+{
+  color: #fff !important;
 }
