@@ -467,7 +467,7 @@ input::placeholder,textarea::placeholder {
   min-height: 1.5em;
 }
 
-select {
+select:not([size]) {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236B7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
   background-position: right 0.5rem center;
   background-repeat: no-repeat;
@@ -898,6 +898,10 @@ input[type="range"]::-ms-fill-lower {
   display: grid;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -910,8 +914,12 @@ input[type="range"]::-ms-fill-lower {
   width: 5rem;
 }
 
-.max-w-7xl {
-  max-width: 80rem;
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-3\/5 {
+  width: 60%;
 }
 
 .max-w-sm {

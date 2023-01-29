@@ -12,7 +12,7 @@
       <div class="grid sm:grid-cols-2 grid-cols-1 mt-4">
         <div class="">
           <div class="flex justify-center ">
-            <img class="block sm:w-auto w-full sm:mx-0 mx-10 max-w-sm" src="{{ setting('logo', asset('assets/frontend/image/logo.png'), 'file', 'about_us', '*') }}" alt="logo" width="187" height="202">
+            <img class="block sm:w-auto w-3/4 sm:mx-0 mx-10 max-w-sm" src="{{ setting('logo', asset('assets/frontend/image/logo.png'), 'file', 'about_us', '*') }}" alt="logo" width="187" height="202">
           </div>
           <ul class="list-none m-0 px-9 flex gap-4 flex-col justify-center w-80 mx-auto">
             <li class="flex flex-row items-center gap-2">
