@@ -27,16 +27,16 @@ class FrontendController extends Controller
     public function contactStore(Request $request)
     {
         $validated = $request->validate([
-            'email' => ['required', 'email:filter'],
+            'email' => ['nullable', 'email:filter'],
             'name' => ['required', 'string', 'min:3'],
-            'content' => ['required', 'string', 'min:3'],
+            'content' => ['nullable', 'string', 'min:3'],
             'phone' => ['required', 'string', 'min:3'],
             'phone_code' => ['required', 'string'],
-            'interest' => ['required', 'string'],
+            'interest' => ['nullable', 'string'],
         ]);
 //        dd($validated);
         Contact::create($validated);
-        return back()->with(['success' => 'contact soon as soon']);
+        return back()->with(['success' => 'Message sent successfully, contact you as soon as']);
     }
 
 

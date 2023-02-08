@@ -86,7 +86,6 @@
             <div class="sm:w-96 w-full mx-auto">
               <input type="email" placeholder="Email"
                      name="email"
-                     required
                      class="border-b-white border-x-0 border-t-0 border-b-2 px-0 py-3
                                text-lg w-full
                                text-white font-semibold bg-transparent focus:border-b-amber-200 focus:ring-transparent">
@@ -100,7 +99,8 @@
                       class="border-white border-2 px-1 py-0 text-lg w-full mt-4
                                     focus:ring-amber-300 focus:border-amber-300
                                            text-white font-semibold bg-transparent focus:border-b-amber-200 focus:ring-transparent">
-                @foreach($projects as $project)
+                <option value="">select</option>
+              @foreach($projects as $project)
                   <option value="{{ $project->title }}">{{ $project->title }}</option>
                 @endforeach
               </select>

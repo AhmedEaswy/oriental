@@ -56,9 +56,8 @@ textarea:focus {
     ring-color: var(--color-primary) !important;
 }
 
-.footer select option {
+select option {
      background-color: #000;
-
 }
 
 #scrollToTop {
